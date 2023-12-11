@@ -10,8 +10,8 @@
 
 # Data Section
 .data
-prompt:   .string   "Hi, what's your name?\n" 
-response: .string   "\nIt's nice to meet you, " 
+prompt:   .string   "Hey, what's your name?\n" 
+response: .string   "\nIt's good to meet you, " 
 name:     .string   "                       "
 
 # Code Section

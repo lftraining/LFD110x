@@ -49,9 +49,9 @@ inner:
 # These are the colors used by the logo in 
 # RGB format: color =  0x00RRGGBB 
 
-.equ black 0x00000000
-.equ white 0x00FFFFFF
-.equ blue  0x000174B3
+.equ black  0x00000000
+.equ yellow 0x00F6B21A
+.equ blue   0x002A3172
 
 
 # Data Section
@@ -62,121 +62,121 @@ inner:
 logo:
 
 # Column 0
-.word 0x00000000
-.word 0x002A3172
-.word 0x002A3172
-.word 0x002A3172
-.word 0x002A3172
-.word 0x002A3172
-.word 0x002A3172
-.word 0x002A3172
-.word 0x002A3172
-.word 0x002A3172
+.word black
+.word blue
+.word blue
+.word blue
+.word blue
+.word blue
+.word blue
+.word blue
+.word blue
+.word blue
 
 # Column 1
-.word 0x00000000
-.word 0x002A3172
-.word 0x002A3172
-.word 0x002A3172
-.word 0x002A3172
-.word 0x00000000
-.word 0x00000000
-.word 0x002A3172
-.word 0x002A3172
-.word 0x002A3172
+.word black
+.word blue
+.word blue
+.word blue
+.word blue
+.word black
+.word black
+.word blue
+.word blue
+.word blue
 
 # Column 2
-.word 0x00000000
-.word 0x002A3172
-.word 0x002A3172
-.word 0x002A3172
-.word 0x002A3172
-.word 0x00000000
-.word 0x00000000
-.word 0x00000000
-.word 0x002A3172
-.word 0x002A3172
+.word black
+.word blue
+.word blue
+.word blue
+.word blue
+.word black
+.word black
+.word black
+.word blue
+.word blue
 
 # Column 3
-.word 0x00000000
-.word 0x00000000
-.word 0x002A3172
-.word 0x002A3172
-.word 0x00000000
-.word 0x00000000
-.word 0x00F6B21A
-.word 0x00000000
-.word 0x00000000
-.word 0x002A3172
+.word black
+.word black
+.word blue
+.word blue
+.word black
+.word black
+.word yellow
+.word black
+.word black
+.word blue
 
 # Column 4
-.word 0x00F6B21A
-.word 0x00000000
-.word 0x00000000
-.word 0x00000000
-.word 0x00000000
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00000000
-.word 0x00000000
+.word yellow
+.word black
+.word black
+.word black
+.word black
+.word yellow
+.word yellow
+.word yellow
+.word black
+.word black
 
 # Column 5
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00000000
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word black
 
 # Column 6
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00000000
-.word 0x00000000
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word black
+.word black
 
 # Column 7
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00000000
-.word 0x00000000
-.word 0x002A3172
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word black
+.word black
+.word blue
 
 # Column 8
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00000000
-.word 0x00000000
-.word 0x002A3172
-.word 0x002A3172
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word black
+.word black
+.word blue
+.word blue
 
 # Column 9
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00F6B21A
-.word 0x00000000
-.word 0x00000000
-.word 0x002A3172
-.word 0x002A3172
-.word 0x002A3172
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word yellow
+.word black
+.word black
+.word blue
+.word blue
+.word blue

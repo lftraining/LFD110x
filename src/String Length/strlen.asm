@@ -27,7 +27,7 @@ str:   .string "RISC-V is the bomb!!!"
 
 
 # Code Section
-.text
+.text 
 
 ###################################################
 # Main entry point.

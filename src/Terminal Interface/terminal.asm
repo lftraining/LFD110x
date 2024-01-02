@@ -15,7 +15,7 @@ response: .string   "\nIt's good to meet you, "
 name:     .string   "                       "
 
 # Code Section
-.text
+.text 
 
 ###################################################
 # Main entry point.
